@@ -1,0 +1,100 @@
+header {
+  position: relative;
+  background-image: url(../images/soleil1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+font-size: 25px;
+font-family: 'Raleway', sans-serif;
+}
+
+#ciel {
+position: relative;
+width: 100%;
+padding
+}
+
+#logo {
+  z-index: 5;
+position : absolute;
+top: 5%;
+left: 5%;
+}
+
+
+#titre {
+    z-index: 5;
+  position : absolute;
+  top: 20%;
+  left:30%;
+}
+
+#titre h1 {
+  color : white;
+  font-size:70px;
+}
+
+#F {
+  color : #BE004F;
+}
+
+#U {
+color : #F7B310;
+}
+
+#N {
+  color : #0094B6;
+}
+
+nav {
+  position: absolute;
+  bottom: 0px;
+  left : 5%;
+}
+
+.nav-pills li a {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-left: 20px;
+  background-color: #0094B6;
+  padding : 0px 0px;
+}
+
+
+.nav-pills li a:hover,.nav-pills li a:focus {
+  background-color: #BE004F;
+  color : white;
+}
+
+li a {
+  font-size: 20px;
+  color: white;
+}
+
+
+.col-centered {
+float: none;
+margin: 0 auto;
+}
+
+#texteapropos {
+  margin-top: 50px;
+  text-align: justify;
+}
+#boutonacces {
+float: right;
+margin-top: 50px;
+background-color: #BE004F;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+
+}

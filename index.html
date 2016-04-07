@@ -2,49 +2,82 @@
 <html>
   <head>
     <meta charset="utf-8">
-
-<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-      <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
-      <link rel="stylesheet" href="css/crowd.css"/>
-
     <title>crowdfunding</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/crowd.css"/>
   </head>
-
+​
   <body>
 
-<header>
-  <img src= "images/soleil1.jpg" id ="ciel"/>
-  <img src="images/logo-grand-narbonne.png" id="logo"/>
-  <div id ="titre"> <h1>Crowd-<span id="F">F</span><span id= "U">U</span><span id="N">N</span>-Ding</h1></div>
+    <header>
+      <img src= "images/soleil1.jpg" id ="ciel"/>
+      <img src="images/logo-grand-narbonne.png" id="logo"/>
+      <div id ="titre">
+        <h1>Crowd-<span id="F">F</span><span id= "U">U</span><span id="N">N</span>-Ding</h1>
+      </div>
+    </header>
 
-  <nav>
-  <ul class="nav nav-pills nav-justified">
-      <li ><a href="#" id = "accueil">ACCUEIL</a></li>
-      <li><a href="#" id = "projet">PROJET D'ICI</a></li>
-      <li><a href="#" id = "apropos">A PROPOS</a></li>
-    </ul>
-  </nav>
-</header>
+    <div id="menu" class="row">
+      <nav>
+          <ul class="nav nav-pills nav-justified">
+              <li ><a href="#" id = "accueil">ACCUEIL</a></li>
+              <li><a href="projetici.html" id = "projet">PROJET D'ICI</a></li>
+              <li><a href="apropos.html" id = "apropos">A PROPOS</a></li>
+          </ul>
+      </nav>
+    </div>
 
 
-<div class="row">
-  <div class="col-md-9 col-centered">
-<p id="texteapropos" >Le grand Narbonne favorise les projets du territoire .....................et  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  <button type="button" class="btn btn-primary" id="boutonacces">Accès au site du Grand Narbonne</button>
-  </div>
-</div>
 
-<div class="row">
-  <div class="col-md-9 col-centered">
-    <h2>Une équipe à votre service</h2>
-    <div class="row">
-      <div class="col-md-4">
 
+<!-- phrase d'intro à modifier -->
+
+     <div class="row">
+      <div class="col-md-9 col-centered">
+
+      <p class = "texte"> Le financement participatif local permet aux trés petites entreprises et aux associations de faire participer les habitants à leurs projets de création et de développement</p>
       </div>
     </div>
-  </div>
-</div>
+    <div class= "row">
+      <div class="col-md-9 col-centered">
 
-  </body>
-</html>
+        <div class = "row">
+          <div class = "col-md-6 territoire">
+            <div class= "paquet">
+              <p class= textecarron>Projets du territoire</p>
+              <a href= "projetici.html"><p class= "clic">En savoir plus</p></a>
+            </div>
+          </div>
+            <div class = "col-md-6 territoire">
+              <div class= "paquet">
+                <p class= textecarron>Une idée à proposer</p>
+                <a href="#"><p class ="clic">En savoir plus</p></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bandeaupartenaire">
+      <div class="col-md-4">
+        <img src="images/logo-grand-narbonne.png" class="img-responsive">
+      </div>
+      <div class="col-md-4 ">
+        <h2>Nos partenaires</h2>
+      </div>
+      <div class="col-md-4 ">
+        <img src="images/region.png" id="region" class="img-responsive">
+      </div>
+
+    </div>
+
+        <footer class="row">
+        <div class ="col-md-9 col-centered">
+        <div id="copyright"><p>©2016 propulsé par Zinzinprod</p></div>
+        <img src="images/FaceBook.png" id= "fb"/>
+        <img src="images/twitter.png" id="twitter"/>
+        </div>
+        </footer>
+
+      </body>
+    </html>

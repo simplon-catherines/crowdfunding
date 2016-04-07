@@ -70,10 +70,41 @@ li a {
   margin: 0 auto;
 }
 
-#texteapropos {
+.texte {
   margin-top: 50px;
   text-align: justify;
 }
+
+
+.paquet {
+background-color: #BE004F;
+width: 100%;
+height: 300px;
+margin-top: 20%;
+padding-top: 40%;
+border-top-left-radius: 20%;
+border-bottom-right-radius: 20%;
+}
+
+.textecarron{
+color: white;
+text-align: center;
+font-size: 30px;
+}
+.territoire {
+padding: 0 12% 0 12%;
+}
+
+.clic {
+text-align: right;
+font-size: 14px;
+color : white;
+padding-right: 15px;
+margin-top: 25px;
+}
+
+
+
 #boutonacces {
   float: right;
   margin-top: 50px;
@@ -102,6 +133,7 @@ li a {
 .colonneprojet img {
   width: 100%;
 }
+
 .carrontop {
   padding : 10px 0px;
   color : white;
@@ -127,7 +159,6 @@ h5 {
 .chiffres {
   padding-top: 20px;
   text-align: right;
-
 }
 
 .participez {
